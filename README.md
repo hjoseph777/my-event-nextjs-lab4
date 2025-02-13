@@ -23,7 +23,7 @@ Contains reusable UI components:
 - `HoverCard.tsx` - Hover interaction example
 - `ClientWrapper.tsx` - Client-side rendering wrapper
 
-View code: [https://github.com/hjoseph777/my-event-nextjs-lab4/tree/main/src/app/components](https://github.com/hjoseph777/my-event-nextjs-lab4/tree/main/src/app/components)
+View code: [components](https://github.com/hjoseph777/my-event-nextjs-lab4/tree/master/src/app/components)
 
 ### Pages (`/src/app`)
 
