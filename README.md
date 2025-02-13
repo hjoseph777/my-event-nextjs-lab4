@@ -32,7 +32,7 @@ Main application pages and layouts:
 - `layout.tsx` - Root layout with providers
 - `providers.tsx` - Client-side provider setup
 
-View code: [https://github.com/hjoseph777/my-event-nextjs-lab4/tree/main/src/app](https://github.com/hjoseph777/my-event-nextjs-lab4/tree/main/src/app)
+View code: [main Page layout](https://github.com/hjoseph777/my-event-nextjs-lab4/tree/master/src/app)
 
 ### Styles (`/src/app/globals.css`)
 
