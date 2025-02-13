@@ -43,4 +43,4 @@ View code: [main Page layout](https://github.com/hjoseph777/my-event-nextjs-lab4
 - GitHub Pages for deployment
 
 
-View deployment configuration: [next.config.js](https://github.com/hjoseph777/my-event-nextjs-lab4/blob/main/next.config.js)
+View deployment configuration: [next.config.js](https://github.com/hjoseph777/my-event-nextjs-lab4/blob/master/next.config.js)
