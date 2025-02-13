@@ -34,15 +34,6 @@ Main application pages and layouts:
 
 View code: [main Page layout](https://github.com/hjoseph777/my-event-nextjs-lab4/tree/master/src/app)
 
-### Styles (`/src/app/globals.css`)
-
-Manages application styling:
-- Global styles and theme configuration
-- Tailwind CSS integration
-- Dark mode support
-
-View code: [https://github.com/hjoseph777/my-event-nextjs-lab4/blob/main/src/app/globals.css](https://github.com/hjoseph777/my-event-nextjs-lab4/blob/main/src/app/globals.css)
-
 ## Technologies Used
 
 - Next.js 14
@@ -51,41 +42,5 @@ View code: [https://github.com/hjoseph777/my-event-nextjs-lab4/blob/main/src/app
 - Tailwind CSS
 - GitHub Pages for deployment
 
-## Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/hjoseph777/my-event-nextjs-lab4.git
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run development server:
-```bash
-npm run dev
-```
-
-4. Build and deploy:
-```bash
-npm run build
-```
-
-## Features
-
-- **Interactive Components**: Multiple examples of user interaction handling
-- **Form Validation**: Client-side validation with error messaging
-- **Dynamic Filtering**: List filtering with active/inactive states
-- **Hover Effects**: Smooth transitions and hover state management
-- **Responsive Design**: Mobile-friendly layout with Tailwind CSS
-
-## Deployment
-
-The project is configured for GitHub Pages deployment with:
-- Static export configuration
-- Proper base path and asset prefixing
-- Image optimization settings
 
 View deployment configuration: [next.config.js](https://github.com/hjoseph777/my-event-nextjs-lab4/blob/main/next.config.js)
