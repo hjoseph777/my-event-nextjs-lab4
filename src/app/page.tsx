@@ -3,8 +3,11 @@ import ToggleContent from "./components/ToggleContent";
 import FilteredList from "./components/FilteredList";
 import ValidationForm from "./components/ValidationForm";
 import HoverCard from "./components/HoverCard";
+import { usePathname } from 'next/navigation';
 
-export default function Home() {
+export default function HomePage() {
+  const basePath = '/my-event-nextjs-lab4';
+  
   return (
     <div className="min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="max-w-4xl mx-auto grid gap-12">
@@ -50,7 +53,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src={`${basePath}/file.svg`}
             alt="File icon"
             width={16}
             height={16}
@@ -65,7 +68,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src={`${basePath}/window.svg`}
             alt="Window icon"
             width={16}
             height={16}
@@ -80,7 +83,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src={`${basePath}/globe.svg`}
             alt="Globe icon"
             width={16}
             height={16}

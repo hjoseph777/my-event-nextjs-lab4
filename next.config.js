@@ -6,8 +6,11 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
+  trailingSlash: true,
+  // This ensures index pages are correctly handled
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   // Add this to suppress hydration warnings
   reactStrictMode: false,
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
